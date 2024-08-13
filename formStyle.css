@@ -1,0 +1,118 @@
+/* Popup form styles */
+#popupForm {
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  width: 500px; /* adjust the width as needed */
+}
+
+#popupForm.show {
+  display: block;
+}
+
+/* Overlay styles */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 900;
+}
+
+#overlay.show {
+  display: block;
+}
+
+/* Form styles */
+#popupForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#popupForm label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#popupForm input[type="text"],
+#popupForm input[type="email"],
+#popupForm textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  color: rgb(20, 2, 2);
+}
+
+#popupForm input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#popupForm input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Close button styles */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #e50909;
+}
+.popup-content textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ede7ed;
+  border-radius: 5px;
+  width: 100%;
+  resize: none; /* add this property */
+}
+/* Submit button styles */
+.popup-content button {
+  background-color: #4caf50; /* green background color */
+  color: #fff; /* white text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* increase font size */
+  font-weight: bold; /* make text bold */
+  transition: background-color 0.3s; /* add a transition effect */
+}
+
+.popup-content button:hover {
+  background-color: #3e8e41; /* darker green background color on hover */
+}
+
+.popup-content button:active {
+  background-color: #3e8e41; /* darker green background color on active */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* add a box shadow on active */
+}
+.popup-content h2 {
+  color: rgb(125, 18, 226);
+}
