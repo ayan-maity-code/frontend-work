@@ -8,8 +8,8 @@ The **Sundown Studio Landing Page** is a multi-disciplinary studio website desig
 ### Key Features
 - **Landing Page**: The primary interface that introduces Sundown Studio's focus and projects, accompanied by a visually engaging video background and smooth scrolling effects.
 - **Contact Form**: An interactive (pop up) contact form that allows users to get in touch with Sundown Studio.
-- **Weather App**: A simple weather application where users can search for the current weather in different cities. It is integrated with the news feed page . To get the weather data click on the **Check Weather button**.
-- **News Search App**: A news search platform that enables users to search for the latest news articles on any topic. Click on the **News Feed** button to see the news about all over the world. Click on the **Search** button to get news.
+- **Weather App**: A simple weather application where users can search for the current weather in different cities. It is integrated with the news feed page . To get the weather data click on the **Check Weather button** at news feed page. Click on any part of the **card** to go back to the original website.
+- **News Search App**: A news search platform that enables users to search for the latest news articles on any topic. Click on the **News Feed** button to see the news about all over the world. Click on the **Search** button to get news. Click on the **News** logo to go back to the original website.
 
 ## Running the Project Locally
 
