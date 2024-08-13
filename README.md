@@ -18,6 +18,7 @@ The **Sundown Studio Landing Page** is a multi-disciplinary studio website desig
 - A local server (optional, for enhanced performance)
 - Internet connection (for fetching external resources)
 
+
 ### Steps to Run
 
 1. **Clone the Repository**:
@@ -64,6 +65,12 @@ The **Sundown Studio Landing Page** is a multi-disciplinary studio website desig
      https://reqres.in/api/users
      ```
    - **Functionality**: Fetches the form data.
+
+   ## Deployment
+
+The landing page has been deployed to [Netlify](https://www.netlify.com) and can be accessed via the following URL:
+
+[Live URL](https://frontend-work1.netlify.app/)
 
 ---
 
